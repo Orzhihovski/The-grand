@@ -1,0 +1,84 @@
+.hero {
+padding-top: 50px;
+padding-bottom: 50px;
+
+
+
+    text-align: center;
+    max-width: 100%;
+    height: auto;
+
+background-image: linear-gradient(#2f303a66,
+            rgba(47, 48, 58, 0.4)), url(../images/br.jpg);
+                background-repeat: no-repeat;
+                background-position: center;
+                background-size: cover;
+                margin-left: auto;
+                margin-right: auto;
+
+}
+
+.hero-text {
+    font-family: Raleway;
+        font-style:   normal;
+        font-weight: 250;
+        font-size: 29px;
+        line-height: 24px;
+        /* or 162% */
+    
+       
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: white;
+        
+}
+
+.hero-text-two {
+    font-family: Raleway;
+        font-style: normal;
+        font-weight: 250;
+        font-size: 19px;
+        line-height: 24px;
+        /* or 162% */
+    
+    
+        letter-spacing: 0.06em;
+        text-transform: uppercase;
+        color: white;
+
+        padding-top: 10px;
+}
+
+.hero-p {
+font-family: Raleway;
+    font-style: normal;
+    font-weight: 250;
+    font-size: 11px;
+    line-height: 11px;
+    /* or 162% */
+
+
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: white;
+
+    padding-top: 10px;
+    padding-bottom: 50px;
+   
+
+}
+
+.hero-btn {
+  
+ width: 160px;
+ height: 62px;
+ border-radius: 30px;
+
+
+    background-color: tomato;
+
+    & {
+            cursor: pointer;
+            font-family: inherit;
+        }
+}

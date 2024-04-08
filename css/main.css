@@ -70,7 +70,8 @@ img {
 }
 
 .section {
-  padding-top: 94px;
+  padding-top: 60px;
+  padding-bottom: 60px;
 }
 
 .hero {
@@ -136,4 +137,26 @@ img {
 .hero-btn {
   cursor: pointer;
   font-family: inherit;
+}
+
+.adress-li {
+  margin-top: 16px;
+}
+
+.p-adress {
+  margin-top: 11px;
+}
+
+.pricelist {
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.price-title {
+  text-align: center;
+}
+
+.barber-title {
+  text-align: center;
+  margin-top: 16px;
 }/*# sourceMappingURL=main.css.map */
